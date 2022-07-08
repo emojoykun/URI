@@ -1,17 +1,17 @@
 /*
-	@autor: Malbolge;
-	@data: 23/01/2019;
+	@autor: emojoykun;
+	@data: 09/07/2022;
 	@nome: Notas da Prova;
 */
 
 #include <stdio.h>
 
-void main ()
+int main ()
 {
 
-	unsigned short n;
+	int n;
 
-	scanf("%hu", &n);
+	scanf("%d", &n);
 
 	if (n == 0)
 		printf("E\n");
