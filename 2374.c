@@ -1,19 +1,17 @@
 /*
-	@autor: Malbolge;
-	@data: 31/10/2018;
+	@autor: emojoykun;
+	@data: 09/07/2022;
 	@nome: Pneu;
 */
 
-#include <stdio.h>
+#include<stdio.h>
 
-void main ()
+int main()
 {
-
-	short pressaoDesejada, pressaoLida;
-
-	scanf("%hd %hd", &pressaoDesejada, &pressaoLida);
-
-	printf("%hd\n", pressaoDesejada - pressaoLida);
-
-
+    int a,b;
+    
+    scanf("%d", &a);
+    scanf("%d", &b);
+    
+    printf("%d\n", a-b);
 }
