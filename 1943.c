@@ -1,17 +1,16 @@
 /*
-	@autor: Malbolge;
-	@data: 23/01/2019;
+	@autor: emojoykun;
+	@data: 10/07/2022;
 	@nome: Top N;
 */
 
 #include <stdio.h>
 
-void main ()
+int main ()
 {
+	int n;
 
-	unsigned short n;
-
-	scanf("%hu", &n);
+	scanf("%d", &n);
 
 	if (n == 1)
 		printf("Top 1\n");
@@ -27,5 +26,4 @@ void main ()
 		printf("Top 50\n");
 	else if (n >= 50 && n <= 100)
 		printf("Top 100\n");
-
 }
